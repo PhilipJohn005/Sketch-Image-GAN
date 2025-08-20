@@ -1,0 +1,25 @@
+{
+  "dataset_info": {
+    "name": "FS2K_Pix2Pix",
+    "description": "FS2K dataset prepared for Pix2Pix GAN training",
+    "image_size": [
+      512,
+      256
+    ],
+    "total_samples": 2104,
+    "train_samples": 1683,
+    "val_samples": 421
+  },
+  "attributes": {
+    "skin_color": "RGB values for skin color",
+    "lip_color": "RGB values for lip color",
+    "eye_color": "RGB values for eye color",
+    "hair": "Hair type (0/1)",
+    "hair_color": "Hair color category (0-4)",
+    "gender": "Gender (0/1)",
+    "earring": "Earring presence (0/1)",
+    "smile": "Smile presence (0/1)",
+    "frontal_face": "Frontal face (0/1)",
+    "style": "Style category (0/1)"
+  }
+}
